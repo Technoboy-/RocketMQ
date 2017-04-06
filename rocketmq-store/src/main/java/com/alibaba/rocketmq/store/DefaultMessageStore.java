@@ -1465,7 +1465,7 @@ public class DefaultMessageStore implements MessageStore {
                 }
             }
 
-            return cleanImmediately;
+            return false;
         }
 
         public int getManualDeleteFileSeveralTimes() {
